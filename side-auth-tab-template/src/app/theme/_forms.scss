@@ -1,0 +1,50 @@
+.form {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 20;
+    font-size: 20;
+    font-weight: bold;
+
+    .input-field {
+        width: 80%;
+    }
+
+    .input-submit {
+        font-size: 20;
+    }
+
+    .input {
+        width: 100%;
+        font-weight: normal;
+        color: black;
+    }
+
+    .btn {
+        border-width: 10;
+        width: 80%;
+        border-radius: 20%;
+    }
+
+    .btn-login {
+        background: lightblue;
+        font-size: 20;
+    }
+
+    .btn-register {
+        font-size: 15;
+        background: whitesmoke;
+        font-weight: normal;
+    }
+
+    .label {
+        color: $primary;
+        font-weight: bold;
+        font-family: 'Oswald', 'Oswald-Regular', 'Oswald-Bold';
+    }
+
+    .label-invalid {
+        color:red;
+        font-size: 15;
+    }
+}
